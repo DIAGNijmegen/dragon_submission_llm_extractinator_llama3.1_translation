@@ -228,7 +228,7 @@ class DragonSubmission(DragonBaseline):
             temperature=0.0,
             max_context_len="split",
             num_predict=512,
-            translate=False,
+            translate=True,
             data_dir=self.basepath / "data",
             output_dir=self.basepath / "output",
             task_dir=self.basepath / "tasks",
